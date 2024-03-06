@@ -1,0 +1,15 @@
+/* Profile.css */
+.App-header {
+    transition: all 1s ease;
+    opacity: 0; /* 스크롤 시 천천히 변화되도록 설정 */
+  }
+  
+  .App-header.scrolled {
+    opacity: 1;
+    transform: translateY(-3%);
+  }
+  
+  .content {
+    padding: 20px;
+    height: 2000px; /* 스크롤을 위한 충분한 컨텐츠 높이 */
+  }

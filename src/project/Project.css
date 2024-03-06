@@ -1,0 +1,227 @@
+/* Project.css */
+.slick-prev::before,
+.slick-next::before {
+    opacity: 0;
+    display: none;
+}
+
+.slick-dots {
+    bottom: -20px;
+}
+
+.slick-dots li button:before {
+    position: absolute;
+    font-size: 20px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #7EA2FF;
+}
+
+.slick-prev {
+    margin-left: -20px;
+}
+
+.Project_main01 {
+    margin-left: 50px;
+}
+
+.Project_main01 img {
+    width: 48%;
+    margin-left: 70px;
+}
+
+.Project_main02 img,
+.Project_main03 img,
+.Project_main04 img,
+.Project_main05 img,
+.Project_main06 img,
+.Project_main07 img {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.Project_main01 p,
+.Project_main02 p,
+.Project_main03 p,
+.Project_main04 p,
+.Project_main05 p,
+.Project_main06 p,
+.Project_main07 p {
+    position: absolute;
+    top: 0;
+    margin-left: 730px;
+    color: #000;
+}
+
+.Project_text01_01,
+.Project_text02_01,
+.Project_text03_01,
+.Project_text04_01,
+.Project_text05_01,
+.Project_text06_01,
+.Project_text07_01 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 105px;
+    padding: 0 6px 0 6px;
+    line-height: 0.5em;
+    border-bottom: #7EA2FF solid 15px;
+}
+
+.Project_text01_02,
+.Project_text02_02,
+.Project_text03_02,
+.Project_text04_02,
+.Project_text05_02,
+.Project_text06_02,
+.Project_text07_02 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 150px;
+}
+
+.Project_text01_03,
+.Project_text02_03,
+.Project_text03_03,
+.Project_text04_03,
+.Project_text05_03,
+.Project_text06_03,
+.Project_text07_03 {
+    margin-top: 240px;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 0 6px 0 6px;
+    line-height: 0.5em;
+    border-bottom: #7EA2FF solid 15px;
+}
+
+.Project_text01_04,
+.Project_text02_04,
+.Project_text03_04,
+.Project_text04_04,
+.Project_text05_04,
+.Project_text06_04,
+.Project_text07_04 {
+    margin-top: 290px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.Project_text01_05,
+.Project_text02_05,
+.Project_text03_05,
+.Project_text04_05,
+.Project_text05_05,
+.Project_text06_05,
+.Project_text07_05 {
+    margin-top: 380px;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0 6px 0 6px;
+    line-height: 0.5em;
+    border-bottom: #7EA2FF solid 15px;
+}
+
+.Project_text01_06,
+.Project_text02_06,
+.Project_text03_06,
+.Project_text04_06,
+.Project_text05_06,
+.Project_text06_06,
+.Project_text07_06 {
+    margin-top: 430px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Project_main02 img {
+    width: 51%;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.Project_text02_01,
+.Project_text02_03,
+.Project_text02_05,
+.Project_text02_07 {
+    font-size: 30px;
+    font-weight: 800;
+    padding: 0 6px 0 6px;
+    line-height: 0.5em;
+    border-bottom: #7EA2FF solid 15px;
+}
+
+.Project_text02_02,
+.Project_text02_04,
+.Project_text02_06 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.Project_text02_01 {
+    margin-top: 30px;
+}
+
+.Project_text02_02 {
+    margin-top: 65px;
+}
+
+.Project_text02_03 {
+    margin-top: 125px;
+}
+
+.Project_text02_04 {
+    margin-top: 170px;
+}
+
+.Project_text02_05 {
+    margin-top: 240px;
+}
+
+.Project_text02_06 {
+    margin-top: 280px;
+}
+
+.Project_text02_07 {
+    margin-top: 345px;
+}
+
+.Project_text02_08 {
+    margin-top: 385px;
+    width: 350px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+@media (max-width: 425px) {
+
+    .slick-prev {
+        margin-left: 0px;
+    }
+
+    .Project_main01 img{
+        width: 70%;
+        margin-left: 0px;
+    }
+
+    .slick-dots{
+        margin-bottom: -20px;
+    }
+
+    .Project_main02 img{
+        width: 70%;
+        margin-left: 50px;
+    }
+
+    .Project_text,
+    .Project_text02,
+    .Project_text03,
+    .Project_text04,
+    .Project_text05,
+    .Project_text06,
+    .Project_text07{
+        display: none;
+    }
+}

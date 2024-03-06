@@ -1,0 +1,481 @@
+/* skills.css */
+
+/* FrontEnd */
+
+.HTML_modal,
+.CSS_modal,
+.JS_modal,
+.jquery_modal,
+.react_modal,
+.TS_modal,
+.styledComponents_modal {
+    position: absolute;
+    top: 140px;
+    background-color: #fff;
+    padding: 10px 25px 20px 25px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.HTML_modal {
+    left: 0px;
+}
+
+.CSS_modal {
+    left: 160px;
+}
+
+.JS_modal {
+    left: 320px;
+}
+
+.jquery_modal {
+    left: 480px;
+}
+
+.react_modal {
+    left: 650px;
+}
+
+.TS_modal {
+    left: 830px;
+}
+
+.styledComponents_modal {
+    left: 1000px;
+    width: 170px;
+    height: 168px;
+    padding-right: 30px;
+}
+
+.HTML_modal:hover,
+.CSS_modal:hover,
+.JS_modal:hover,
+.jquery_modal:hover,
+.react_modal:hover,
+.TS_modal:hover,
+.styledComponents_modal:hover {
+    opacity: 1;
+}
+
+.HTML_modal p,
+.CSS_modal p,
+.JS_modal p,
+.jquery_modal p,
+.react_modal p,
+.TS_modal p {
+    line-height: 0.2em;
+    font-weight: 800;
+    width: 0px;
+    padding-top: 20px;
+    padding-left: 0px;
+    font-size: 20px;
+    margin-bottom: 8px;
+    border-bottom: 8px solid #b3c9ff;
+}
+
+.HTML_modal p {
+    padding-right: 60px;
+}
+
+.CSS_modal p {
+    padding-right: 40px;
+}
+
+.JS_modal p {
+    padding-right: 110px;
+}
+
+.jquery_modal p {
+    padding-right: 73px;
+}
+
+.react_modal p {
+    padding-right: 60px;
+}
+
+.TS_modal p {
+    padding-right: 100px;
+}
+
+.styledComponents_modal p {
+    line-height: 0.2em;
+    font-weight: 800;
+    width: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+    border-bottom: 8px solid #b3c9ff;
+}
+
+.styledComponents_txt_01 {
+    padding-top: 20px;
+    padding-right: 65px;
+    margin-bottom: 13px;
+}
+
+.styledComponents_txt_02 {
+    padding-right: 125px;
+    margin-bottom: 13px;
+}
+
+.HTML_modal span,
+.CSS_modal span,
+.JS_modal span,
+.jquery_modal span,
+.react_modal span,
+.TS_modal span,
+.styledComponents_modal span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* Others */
+
+.PS_modal,
+.Ai_modal,
+.ID_modal,
+.Figma_modal,
+.GitHub_modal,
+.firebase_modal,
+.scss_modal {
+    position: absolute;
+    top: 385px;
+    background-color: #fff;
+    padding: 25px 6px 25px 20px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.PS_modal {
+    left: 0px;
+    padding-right: 40px;
+}
+
+.Ai_modal {
+    width: 160px;
+    left: 160px;
+}
+
+.ID_modal {
+    left: 340px;
+    padding-right: 40px;
+}
+
+.Figma_modal {
+    left: 510px;
+    padding-right: 40px;
+}
+
+.GitHub_modal {
+    left: 690px;
+    padding-right: 40px;
+}
+
+.firebase_modal {
+    top: 395px;
+    left: 870px;
+    padding-right: 30px;
+}
+
+.scss_modal {
+    left: 1020px;
+    padding-right: 30px;
+}
+
+.PS_modal:hover,
+.Ai_modal:hover,
+.ID_modal:hover,
+.Figma_modal:hover,
+.GitHub_modal:hover,
+.firebase_modal:hover,
+.scss_modal:hover {
+    opacity: 1;
+}
+
+.PS_modal p,
+.Ai_modal p,
+.ID_modal P,
+.Figma_modal p,
+.GitHub_modal p,
+.firebase_modal p,
+.scss_modal p{
+    line-height: 0.3em;
+    font-weight: 800;
+    width: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+    margin-bottom: 13px;
+    border-bottom: 8px solid #b3c9ff;
+}
+
+.PS_modal p {
+    padding-right: 111px;
+}
+
+.Ai_modal p {
+    padding-right: 103px;
+}
+
+.ID_modal P {
+    padding-right: 93px;
+}
+
+.Figma_modal p {
+    padding-right: 65px;
+}
+
+.GitHub_modal p {
+    padding-right: 73px;
+}
+
+.firebase_modal p {
+    padding-right: 93px;
+}
+
+.scss_modal p{
+    padding-right: 55px;
+}
+
+.PS_modal span,
+.Ai_modal span,
+.ID_modal span,
+.Figma_modal span,
+.GitHub_modal span,
+.firebase_modal span,
+.scss_modal span{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* BackEnd */
+.Node_modal {
+    position: absolute;
+    top: 580px;
+    left: -5px;
+    background-color: #fff;
+    padding: 30px 20px 20px 20px;
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    opacity: 0;
+}
+
+.Node_modal:hover {
+    opacity: 1;
+}
+
+.Node_modal p {
+    line-height: 0.3em;
+    padding-right: 80px;
+    font-weight: 800;
+    width: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+    margin-bottom: 13px;
+    border-bottom: 8px solid #b3c9ff;
+}
+
+.Node_modal span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media (max-width: 425px) {
+    .HTML_modal {
+        margin-top: -70px;
+        margin-left: 40px;
+        flex-wrap: wrap;
+    }
+
+    .CSS_modal {
+        margin-top: -70px;
+        margin-left: 40px;
+    }
+
+    .JS_modal {
+        margin-top: 80px;
+        margin-left: -280px;
+    }
+
+    .jquery_modal {
+        margin-top: 80px;
+        margin-left: -290px;
+    }
+
+    .react_modal {
+        margin-top: 200px;
+        margin-left: -620px;
+    }
+
+    .TS_modal {
+        margin-top: 200px;
+        margin-left: -630px;
+    }
+
+    .styledComponents_modal {
+        margin-top: 340px;
+        margin-left: -940px;
+    }
+
+    .PS_modal {
+        margin-top: 368px;
+        margin-left: 40px;
+        padding-right: 20px;
+    }
+
+    .Ai_modal {
+        margin-top: 365px;
+        margin-left: 20px;
+    }
+
+    .ID_modal {
+        margin-top: 490px;
+        margin-left: -322px;
+        padding-right: 20px;
+    }
+
+    .Figma_modal {
+        margin-top: 490px;
+        margin-left: -335px;
+        padding-right: 20px;
+    }
+
+    .GitHub_modal {
+        margin-top: 650px;
+        margin-left: -663px;
+        padding-right: 20px;
+    }
+
+    .firebase_modal {
+        margin-top: 650px;
+        margin-left: -680px;
+    }
+
+    .scss_modal{
+        margin-top: 810px;
+        margin-left: -965px;
+    }
+
+    .Node_modal {
+        margin-top: 770px;
+        margin-left: 60px;
+    }
+}
+
+@media (max-width: 390px) {
+    .CSS_modal {
+        margin-left: 30px;
+    }
+
+    .jquery_modal {
+        margin-left: -300px;
+    }
+
+    .TS_modal {
+        margin-top: 200px;
+        margin-left: -640px;
+    }
+
+    .PS_modal {
+        padding-right: 20px;
+    }
+
+    .Ai_modal {
+        margin-left: 10px;
+    }
+
+    .ID_modal {
+        margin-top: 500px;
+        padding-right: 20px;
+        margin-left: -322px;
+    }
+
+    .Figma_modal {
+        margin-top: 500px;
+        margin-left: -335px;
+        padding-right: 20px;
+    }
+
+    .GitHub_modal {
+        margin-top: 650px;
+        margin-left: -663px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .CSS_modal {
+        margin-top: -70px;
+        margin-left: 10px;
+    }
+
+    .JS_modal {
+        margin-top: 50px;
+        margin-left: -290px;
+    }
+
+    .jquery_modal {
+        margin-top: 50px;
+        margin-left: -320px;
+    }
+
+    .react_modal {
+        margin-top: 180px;
+        margin-left: -620px;
+    }
+
+    .TS_modal {
+        margin-top: 180px;
+        margin-left: -670px;
+    }
+
+    .styledComponents_modal {
+        margin-top: 310px;
+        margin-left: -960px;
+    }
+
+    .PS_modal {
+        margin-top: 278px;
+        margin-left: 30px;
+        padding-right: 20px;
+    }
+
+    .Ai_modal {
+        margin-top: 278px;
+        margin-left: -10px;
+    }
+
+    .ID_modal {
+        margin-top: 400px;
+        margin-left: -322px;
+        padding-right: 20px;
+    }
+
+    .Figma_modal {
+        margin-top: 400px;
+        margin-left: -365px;
+        padding-right: 20px;
+    }
+
+    .GitHub_modal {
+        margin-top: 540px;
+        margin-left: -673px;
+        padding-right: 20px;
+    }
+
+    .firebase_modal {
+        margin-top: 520px;
+        margin-left: -700px;
+    }
+
+    .scss_modal {
+        margin-top: 650px;
+        margin-left: -985px;
+    }
+
+    .Node_modal {
+        margin-top: 600px;
+        margin-left: 40px;
+    }
+}
