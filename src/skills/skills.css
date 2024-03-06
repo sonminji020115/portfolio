@@ -315,7 +315,7 @@
 
     .styledComponents_modal {
         margin-top: 340px;
-        margin-left: -940px;
+        margin-left: -970px;
     }
 
     .PS_modal {
@@ -354,12 +354,12 @@
 
     .scss_modal{
         margin-top: 810px;
-        margin-left: -965px;
+        margin-left: -985px;
     }
 
     .Node_modal {
         margin-top: 770px;
-        margin-left: 60px;
+        margin-left: 40px;
     }
 }
 

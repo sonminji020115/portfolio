@@ -112,7 +112,7 @@ const Arrow = styled.div`{
   }
 
   .Section1{
-    top: 720px;
+    top: 800px;
 
     @media (max-width: 425px) {
       top: 360px;
@@ -121,7 +121,7 @@ const Arrow = styled.div`{
   }
 
   .Section2{
-    top: 1640px;
+    top: 1750px;
 
     @media (max-width: 425px) {
       top: 1300px;
@@ -135,7 +135,7 @@ const Arrow = styled.div`{
   }
 
   .Section3{
-    top: 2380px;
+    top: 2530px;
 
     @media (max-width: 425px) {
       top: 3142px;
@@ -149,7 +149,7 @@ const Arrow = styled.div`{
   }
 
   .Section4{
-    top: 3250px;
+    top: 3450px;
 
     @media (max-width: 425px) {
       top: 3531px;
@@ -164,7 +164,7 @@ const Arrow = styled.div`{
 
   .Section5{
     padding: 15px 3px 10px 3px;
-    top: 4400px;
+    top: 4310px;
 
     @media (max-width: 425px) {
       top: 4612px;

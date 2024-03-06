@@ -206,6 +206,7 @@ const Skills = () => {
 export default Skills;
 
 const Skills_Wrap = styled.div`
+    padding-top: 80px;
     background: #6AA6F9;
     background: -webkit-linear-gradient(to right, #F1F7FF, #F1F7FF, #FBFEFA);
     background: linear-gradient(to right, #F1F7FF, #F1F7FF, #FBFEFA);  

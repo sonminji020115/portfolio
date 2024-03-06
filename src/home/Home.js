@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Typist from 'react-typist-component';
 
 const Home = () => {
 
@@ -10,9 +11,11 @@ const Home = () => {
                         <div className="main01_img">
                             <img src="img/home_main01_Ellipse.png" />
                         </div>
-                        <Main01_Txt>
-                            <p><span>학습</span>을 좋아하는 <span>성실</span>하고 <spna>끈기</spna>있는 <span>프론트엔드 개발자, 손민지</span>입니다.</p>
-                        </Main01_Txt>
+                        <Typist typingDelay={100} cursor={<span className='cursor'>|</span>}>
+                            <Main01_Txt>
+                                <p><span>학습</span>을 좋아하는 <span>성실</span>하고 <spna>끈기</spna>있는 <span>프론트엔드 개발자, 손민지</span>입니다.</p>
+                            </Main01_Txt>
+                        </Typist>
                     </Home_main01>
                     <Home_main02>
                         <div className="Home_main02_img">
@@ -50,7 +53,8 @@ const Home = () => {
 export default Home;
 
 const Home_wrap = styled.div`
-    padding-top: 90px;
+    padding-top: 130px;
+    padding-bottom: 60px;
 	width: 100%;
     background: #2D61E7;
     background: -webkit-linear-gradient(to right, #D5DFFA, #fff, #FFFFEA);
@@ -96,7 +100,18 @@ const Wrap = styled.div`
 `
 
 const Home_main01 = styled.div`
+    @keyframes sharpen {
+        from {
+        filter: blur(5px);
+        }
+        to {
+        filter: blur(0); /
+        }
+    }
+
     img{
+        animation: sharpen 2s ease-in-out;
+
         width: 20px;
         height: 20px;
         padding-left: 200px;
@@ -104,7 +119,8 @@ const Home_main01 = styled.div`
         @media (max-width: 425px) {
             width: 10px;
             height: 10px;
-            padding-left: 68px;
+            padding-left: 77px;
+
         }
     }
 
@@ -119,7 +135,7 @@ const Home_main01 = styled.div`
     @media (max-width: 425px) {
         p{
             width: 300px;
-            padding-left: 50px;
+            padding-left: 60px;
     }
 
     @media (max-width: 390px) {

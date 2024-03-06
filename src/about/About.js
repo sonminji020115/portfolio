@@ -20,7 +20,7 @@ const About = () => {
         <div className="About">
             <About_wrap>
                 <Wrap>
-                    <header className={`App-header ${scrollY > 2500 ? 'scrolled' : ''}`}>
+                    <header className={`App-header ${scrollY > 2700 ? 'scrolled' : ''}`}>
                         <About_main01>
                             <p className="Ellopse"><img src="img/About_Ellopse.png" /></p>
                             <p><img src="img/about me.png" /></p>

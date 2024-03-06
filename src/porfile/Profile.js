@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import React, { useState , useEffect } from 'react';
+
+import React, { useState, useEffect } from 'react';
 import { useSpring, animated } from 'react-spring';
 
 import './Profile.css'
@@ -15,22 +16,22 @@ const Profile = () => {
 
     const scrollToSection = (ref, offset) => {
         window.scrollTo({
-          top: ref.current.offsetTop + offset,
-          behavior: 'smooth'
+            top: ref.current.offsetTop + offset,
+            behavior: 'smooth'
         });
-      };
-    
-      useEffect(() => {
+    };
+
+    useEffect(() => {
         const handleScroll = () => {
-          setScrollY(window.scrollY);
+            setScrollY(window.scrollY);
         };
-    
+
         window.addEventListener('scroll', handleScroll);
-    
+
         return () => {
             window.removeEventListener('scroll', handleScroll);
-          };
-        }, []);
+        };
+    }, []);
 
     const images = [
         "img/profile_photo.png",
@@ -45,39 +46,39 @@ const Profile = () => {
         <div className="Profile">
             <Profile_wrap>
                 <Wrap>
-                <header className={`App-header ${scrollY > 300 ? 'scrolled' : ''}`}>
-                    <Profile_main01>
-                        <div className="Profile_main01_img">
-                            <img className='main01_text01' src="img/Introduce.png" />
-                            <div onMouseEnter={handleMouseEnter}>
-                                <animated.img
-                                    className="main_profile_img"
-                                    src={images[isRotatingRight ? 1 : 0]}
-                                    alt="Rotating Image"
-                                    style={{
-                                        width: 230,
-                                        height: 230,
-                                        transform: rotationY.interpolate(
-                                            r => `perspective(600px) rotateY(${r}deg)`
-                                        ),
-                                    }}
-                                />
+                    <header className={`App-header ${scrollY > 300 ? 'scrolled' : ''}`}>
+                        <Profile_main01>
+                            <div className="Profile_main01_img">
+                                <img className='main01_text01' src="img/Introduce.png" />
+                                <div onMouseEnter={handleMouseEnter}>
+                                    <animated.img
+                                        className="main_profile_img"
+                                        src={images[isRotatingRight ? 1 : 0]}
+                                        alt="Rotating Image"
+                                        style={{
+                                            width: 230,
+                                            height: 230,
+                                            transform: rotationY.interpolate(
+                                                r => `perspective(600px) rotateY(${r}deg)`
+                                            ),
+                                        }}
+                                    />
+                                </div>
+                                <img className='main01_text02' src="img/myself.png" />
                             </div>
-                            <img className='main01_text02' src="img/myself.png" />
-                        </div>
-                    </Profile_main01>
-                    <Profile_main02>
-                        <img src="img/profile_main02_Ellipse.png" />
-                        <p className="main02_text01">/* 성실한 · 학습을 좋아하는 · 끈기있는 */</p>
-                        <p className="main02_text02">
-                            <span>성실하고 학습을 좋아하며 끈기있는 프론트엔드 개발자</span> 손민지입니다.
-                            이전 직장을 다녔을 당시 편도 1시간 거리였으나, 일찍 도착하여 업무준비를 하며
-                            성실하다는 평가를 받은 바 있으며, 평소 새로운 것을 학습하는 것을 좋아하고 끈기가 넘치는 성향인지라 코딩 학원을 다닐 당시 자습실에서까지 늦게까지 남아 복습을 할만큼 학습하는 것을 좋아했습니다.
-                            개발자는 끊임없는 학습이 중요한 직업이라 생각합니다. <span>성실</span>하고 <span>학습</span>을 좋아하며 <span>끈기</span>있는
-                            이러한 저의 장점은 개발자로써 큰 장점이 될 것이라고 생각합니다.
-                            한 가지로 만족하지 않고 끊없이 <span>성장</span>하고 <span>발전</span>하는 프론트엔드 개발자가 되겠습니다.<br />
-                        </p>
-                    </Profile_main02>
+                        </Profile_main01>
+                        <Profile_main02>
+                            <img src="img/profile_main02_Ellipse.png" />
+                                <p className="main02_text01">/* 성실한 · 학습을 좋아하는 · 끈기있는 */</p>
+                            <p className="main02_text02">
+                                <span>성실하고 학습을 좋아하며 끈기있는 프론트엔드 개발자</span> 손민지입니다.
+                                이전 직장을 다녔을 당시 편도 1시간 거리였으나, 일찍 도착하여 업무준비를 하며
+                                성실하다는 평가를 받은 바 있으며, 평소 새로운 것을 학습하는 것을 좋아하고 끈기가 넘치는 성향인지라 코딩 학원을 다닐 당시 자습실에서까지 늦게까지 남아 복습을 할만큼 학습하는 것을 좋아했습니다.
+                                개발자는 끊임없는 학습이 중요한 직업이라 생각합니다. <span>성실</span>하고 <span>학습</span>을 좋아하며 <span>끈기</span>있는
+                                이러한 저의 장점은 개발자로써 큰 장점이 될 것이라고 생각합니다.
+                                한 가지로 만족하지 않고 끊없이 <span>성장</span>하고 <span>발전</span>하는 프론트엔드 개발자가 되겠습니다.<br />
+                            </p>
+                        </Profile_main02>
                     </header>
                 </Wrap>
             </Profile_wrap>
@@ -90,12 +91,14 @@ const Profile = () => {
 export default Profile;
 
 const Profile_wrap = styled.div`
+    padding-top: 30px;
     background: #6AA6F9;
     background: -webkit-linear-gradient(to right, #F1F7FF, #F1F7FF, #FBFEFA);
     background: linear-gradient(to right, #F1F7FF, #F1F7FF, #FBFEFA);  
     background-size: cover;
 
     @media (max-width: 425px) {
+        padding-top: 40px;
         max-width: 425px;
         margin-left: auto;
         margin-right: auto;
