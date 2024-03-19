@@ -13,7 +13,7 @@ const Home = () => {
                         </div>
                         <Typist typingDelay={100} cursor={<span className='cursor'>|</span>}>
                             <Main01_Txt>
-                                <p><span>학습</span>을 좋아하는 <span>성실</span>하고 <spna>끈기</spna>있는 <span>프론트엔드 개발자, 손민지</span>입니다.</p>
+                                <p><span>학습</span>을 좋아하는 <span>성실</span>하고 <span>끈기</span>있는 <span>인재, 손민지</span>입니다.</p>
                             </Main01_Txt>
                         </Typist>
                     </Home_main01>
@@ -114,7 +114,7 @@ const Home_main01 = styled.div`
 
         width: 20px;
         height: 20px;
-        padding-left: 200px;
+        padding-left: 270px;
 
         @media (max-width: 425px) {
             width: 10px;
@@ -125,7 +125,7 @@ const Home_main01 = styled.div`
     }
 
     p{
-        padding-left: 182px;
+        padding-left: 252px;
     }
     
     span{
